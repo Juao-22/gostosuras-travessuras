@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://juao-22.github.io/gostosuras-travessuras/aa/sitemap.xml
