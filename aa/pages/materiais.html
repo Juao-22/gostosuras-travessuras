@@ -6,50 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Veja o mercado de trabalho e salário do analista de testes de software, além de materiais de estudo, cursos e guias gratuitos para iniciar na profissão.">
     <title>Mercado e Salário: Analista de Testes | Viva Sua Profissão</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-    <header>
-        <p class="logo"><strong>Viva Sua Profissão</strong></p>
-        <nav aria-label="Menu principal">
-            <ul>
-                <li><a href="../index.html">Início: Carreira em Testes de Software</a></li>
-                <li><a href="habilidades.html">Conhecer habilidades técnicas de QA</a></li>
-                <li><a href="materiais.html" aria-current="page">Explorar materiais de estudo e mercado</a></li>
-                <li><a href="sobre.html">Sobre o projeto Viva Sua Profissão</a></li>
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="container header-inner">
+            <p class="logo">
+                <a href="../index.html" class="logo-link">
+                    <span class="logo-mark" aria-hidden="true">QA</span>
+                    <strong>Viva Sua Profissão</strong>
+                </a>
+            </p>
+            <nav aria-label="Menu principal">
+                <ul>
+                    <li><a href="../index.html">Início: Carreira em Testes de Software</a></li>
+                    <li><a href="habilidades.html">Conhecer habilidades técnicas de QA</a></li>
+                    <li><a href="materiais.html" aria-current="page">Explorar materiais de estudo e mercado</a></li>
+                    <li><a href="sobre.html">Sobre o projeto Viva Sua Profissão</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <h1>Mercado, Salários e Materiais de Estudo em QA</h1>
-
-        <section>
-            <h2>Panorama do Mercado de Trabalho</h2>
-            <p>A demanda por profissionais de Garantia de Qualidade cresce junto com a digitalização de serviços bancários, aplicativos de entrega, plataformas educacionais e sistemas corporativos.</p>
+    <main class="container">
+        <section class="page-intro" aria-labelledby="materiais-title">
+            <span class="badge">Mercado &amp; Aprendizado</span>
+            <h1 id="materiais-title">Mercado, Salários e Materiais de Estudo em QA</h1>
+            <p class="lead">A demanda por profissionais de Garantia de Qualidade cresce junto com a digitalização de serviços bancários, aplicativos de entrega, plataformas educacionais e sistemas corporativos.</p>
             <p>Antes de se candidatar às primeiras vagas de estágio ou nível júnior, vale revisar as <a href="habilidades.html">habilidades técnicas e comportamentais mais pedidas em QA</a>.</p>
-            <ul>
-                <li><strong>QA Júnior / Estágio:</strong> foco em testes manuais, escrita de cenários e reporte de bugs;</li>
-                <li><strong>QA Pleno:</strong> atuação com automação de testes, integração contínua e testes de API;</li>
-                <li><strong>QA Sênior / Especialista:</strong> definição de estratégia de qualidade, performance e segurança.</li>
+        </section>
+
+        <section aria-labelledby="niveis-carreira-title">
+            <div class="section-header">
+                <h2 id="niveis-carreira-title">Panorama do Mercado de Trabalho</h2>
+                <p>Evolução de responsabilidades conforme a senioridade na área de Qualidade de Software.</p>
+            </div>
+            <ul class="cards-grid">
+                <li class="feature-card">
+                    <span class="step-badge" aria-hidden="true">Nível 1</span>
+                    <h3>QA Júnior / Estágio</h3>
+                    <p>Foco em testes manuais, escrita de cenários, validação de layout e reporte claro de bugs.</p>
+                </li>
+                <li class="feature-card">
+                    <span class="step-badge" aria-hidden="true">Nível 2</span>
+                    <h3>QA Pleno</h3>
+                    <p>Atuação com automação de testes web, integração contínua (CI) e testes automatizados de APIs.</p>
+                </li>
+                <li class="feature-card">
+                    <span class="step-badge" aria-hidden="true">Nível 3</span>
+                    <h3>QA Sênior / Especialista</h3>
+                    <p>Definição de estratégia de qualidade, testes de performance, segurança e mentoria do time.</p>
+                </li>
             </ul>
         </section>
 
-        <section>
-            <h2>Materiais e Guias Gratuitos Recomendados</h2>
-            <p>Selecionamos referências confiáveis para você praticar desenvolvimento web, acessibilidade e testes automatizados:</p>
-            <ul>
-                <li><a href="https://developer.mozilla.org/pt-BR/docs/Learn" target="_blank" rel="noopener noreferrer">MDN Web Docs: Guia de Desenvolvimento Web e HTML/CSS</a> (abre em nova aba);</li>
-                <li><a href="https://developer.chrome.com/docs/devtools?hl=pt-br" target="_blank" rel="noopener noreferrer">Documentação oficial do Chrome DevTools</a> para testar responsividade e desempenho;</li>
-                <li><a href="https://www.istqb.org/" target="_blank" rel="noopener noreferrer">ISTQB: Certificação e Glossário Internacional de Testes de Software</a>.</li>
+        <section aria-labelledby="guias-title">
+            <div class="section-header">
+                <h2 id="guias-title">Materiais e Guias Gratuitos Recomendados</h2>
+                <p>Selecionamos referências confiáveis para você praticar desenvolvimento web, acessibilidade e testes automatizados:</p>
+            </div>
+            <ul class="cards-grid">
+                <li class="feature-card">
+                    <span class="step-badge" aria-hidden="true">Web</span>
+                    <h3>MDN Web Docs</h3>
+                    <p>Fundamentos de HTML, CSS e acessibilidade para entender como aplicações web funcionam.</p>
+                    <p><a class="resource-link" href="https://developer.mozilla.org/pt-BR/docs/Learn" target="_blank" rel="noopener noreferrer">Acessar guia MDN (nova aba)</a></p>
+                </li>
+                <li class="feature-card">
+                    <span class="step-badge" aria-hidden="true">DevTools</span>
+                    <h3>Chrome DevTools</h3>
+                    <p>Documentação oficial para testar responsividade, inspecionar elementos e medir desempenho.</p>
+                    <p><a class="resource-link" href="https://developer.chrome.com/docs/devtools?hl=pt-br" target="_blank" rel="noopener noreferrer">Abrir guia DevTools (nova aba)</a></p>
+                </li>
+                <li class="feature-card">
+                    <span class="step-badge" aria-hidden="true">Certificação</span>
+                    <h3>ISTQB</h3>
+                    <p>Certificação e glossário internacional com conceitos padronizados de testes de software.</p>
+                    <p><a class="resource-link" href="https://www.istqb.org/" target="_blank" rel="noopener noreferrer">Visitar site do ISTQB (nova aba)</a></p>
+                </li>
             </ul>
-            <p>Quer saber quem desenvolveu este portal? Visite a página <a href="sobre.html">Sobre o projeto Viva Sua Profissão</a>.</p>
+        </section>
+
+        <section class="callout" aria-labelledby="sobre-cta-title">
+            <div class="callout-content">
+                <h2 id="sobre-cta-title">Quer saber quem desenvolveu este portal?</h2>
+                <p>Visite a página <a href="sobre.html">Sobre o projeto Viva Sua Profissão</a> ou retorne à <a href="../index.html">visão geral da carreira de Analista de Testes</a>.</p>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>Projeto Viva Sua Profissão &copy; 2026 - Curso Técnico em Desenvolvimento de Sistemas</p>
+    <footer class="site-footer">
+        <div class="container">
+            <p>Projeto Viva Sua Profissão &copy; 2026 - Curso Técnico em Desenvolvimento de Sistemas</p>
+        </div>
     </footer>
 </body>
 

@@ -6,46 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Saiba quem criou o portal Viva Sua Profissão e qual é o objetivo do projeto para ajudar estudantes a conhecerem a carreira de analista de testes de software.">
     <title>Sobre o Portal Viva Sua Profissão | Testes de Software</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-    <header>
-        <p class="logo"><strong>Viva Sua Profissão</strong></p>
-        <nav aria-label="Menu principal">
-            <ul>
-                <li><a href="../index.html">Início: Carreira em Testes de Software</a></li>
-                <li><a href="habilidades.html">Conhecer habilidades técnicas de QA</a></li>
-                <li><a href="materiais.html">Explorar materiais de estudo e mercado</a></li>
-                <li><a href="sobre.html" aria-current="page">Sobre o projeto Viva Sua Profissão</a></li>
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="container header-inner">
+            <p class="logo">
+                <a href="../index.html" class="logo-link">
+                    <span class="logo-mark" aria-hidden="true">QA</span>
+                    <strong>Viva Sua Profissão</strong>
+                </a>
+            </p>
+            <nav aria-label="Menu principal">
+                <ul>
+                    <li><a href="../index.html">Início: Carreira em Testes de Software</a></li>
+                    <li><a href="habilidades.html">Conhecer habilidades técnicas de QA</a></li>
+                    <li><a href="materiais.html">Explorar materiais de estudo e mercado</a></li>
+                    <li><a href="sobre.html" aria-current="page">Sobre o projeto Viva Sua Profissão</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <h1>Sobre o Portal Viva Sua Profissão</h1>
-
-        <section>
-            <h2>Objetivo do Projeto</h2>
-            <p>O portal <strong>Viva Sua Profissão</strong> foi desenvolvido no Curso Técnico em Desenvolvimento de Sistemas com o propósito de apresentar, de forma clara e acessível, a carreira de Analista de Testes de Software (QA).</p>
+    <main class="container">
+        <section class="page-intro" aria-labelledby="sobre-title">
+            <span class="badge">Sobre o Portal</span>
+            <h1 id="sobre-title">Sobre o Portal Viva Sua Profissão</h1>
+            <p class="lead">O portal <strong>Viva Sua Profissão</strong> foi desenvolvido no Curso Técnico em Desenvolvimento de Sistemas com o propósito de apresentar, de forma clara e acessível, a carreira de Analista de Testes de Software (QA).</p>
             <p>Aqui você encontra desde uma <a href="../index.html">introdução ao dia a dia da profissão</a> até um guia com <a href="habilidades.html">habilidades essenciais</a> e <a href="materiais.html">materiais gratuitos para começar a estudar</a>.</p>
         </section>
 
-        <section>
-            <h2>Boas Práticas Aplicadas neste Site</h2>
-            <p>Este projeto também coloca em prática conceitos de SEO técnico, acessibilidade e design responsivo:</p>
-            <ul>
-                <li>Estrutura semântica com títulos hierárquicos e textos alternativos em imagens;</li>
-                <li>Navegação consistente entre todas as páginas para evitar páginas órfãs;</li>
-                <li>Layout responsivo <em>Mobile-First</em> sem rolagem horizontal;</li>
-                <li>Arquivos <code>robots.txt</code> e <code>sitemap.xml</code> configurados para indexação.</li>
+        <section aria-labelledby="boas-praticas-title">
+            <div class="section-header">
+                <h2 id="boas-praticas-title">Boas Práticas Aplicadas neste Site</h2>
+                <p>Este projeto também coloca em prática conceitos de SEO técnico, acessibilidade e design responsivo:</p>
+            </div>
+            <ul class="cards-grid cards-grid-2">
+                <li class="feature-card">
+                    <span class="step-badge" aria-hidden="true">01</span>
+                    <h3>Semântica e Acessibilidade</h3>
+                    <p>Estrutura HTML5 semântica com títulos hierárquicos e textos alternativos descritivos em imagens.</p>
+                </li>
+                <li class="feature-card">
+                    <span class="step-badge" aria-hidden="true">02</span>
+                    <h3>Arquitetura de Links</h3>
+                    <p>Navegação consistente entre todas as páginas para evitar páginas órfãs e facilitar a descoberta.</p>
+                </li>
+                <li class="feature-card">
+                    <span class="step-badge" aria-hidden="true">03</span>
+                    <h3>Design Mobile-First</h3>
+                    <p>Layout responsivo com CSS moderno sem rolagem horizontal em smartphones e tablets.</p>
+                </li>
+                <li class="feature-card">
+                    <span class="step-badge" aria-hidden="true">04</span>
+                    <h3>SEO Técnico</h3>
+                    <p>Arquivos <code>robots.txt</code> e <code>sitemap.xml</code> configurados na raiz para indexação correta.</p>
+                </li>
             </ul>
-            <p>O código-fonte deste projeto está hospedado no <a href="https://github.com/Juao-22/gostosuras-travessuras" target="_blank" rel="noopener noreferrer">repositório oficial no GitHub</a>.</p>
+        </section>
+
+        <section class="callout" aria-labelledby="codigo-fonte-title">
+            <div class="callout-content">
+                <h2 id="codigo-fonte-title">Código Aberto no GitHub</h2>
+                <p>O código-fonte deste projeto está hospedado no <a href="https://github.com/Juao-22/gostosuras-travessuras" target="_blank" rel="noopener noreferrer">repositório oficial no GitHub</a>.</p>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>Projeto Viva Sua Profissão &copy; 2026 - Curso Técnico em Desenvolvimento de Sistemas</p>
+    <footer class="site-footer">
+        <div class="container">
+            <p>Projeto Viva Sua Profissão &copy; 2026 - Curso Técnico em Desenvolvimento de Sistemas</p>
+        </div>
     </footer>
 </body>
 

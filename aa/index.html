@@ -6,53 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Descubra o que faz um analista de testes de software no dia a dia, como garantir qualidade em sistemas e como começar nessa carreira no Viva Sua Profissão.">
     <title>Analista de Testes de Software: O Que Faz | Viva Sua Profissão</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <p class="logo"><strong>Viva Sua Profissão</strong></p>
-        <nav aria-label="Menu principal">
-            <ul>
-                <li><a href="index.html" aria-current="page">Início: Carreira em Testes de Software</a></li>
-                <li><a href="pages/habilidades.html">Conhecer habilidades técnicas de QA</a></li>
-                <li><a href="pages/materiais.html">Explorar materiais de estudo e mercado</a></li>
-                <li><a href="pages/sobre.html">Sobre o projeto Viva Sua Profissão</a></li>
-            </ul>
-        </nav>
+    <header class="site-header">
+        <div class="container header-inner">
+            <p class="logo">
+                <a href="index.html" class="logo-link">
+                    <span class="logo-mark" aria-hidden="true">QA</span>
+                    <strong>Viva Sua Profissão</strong>
+                </a>
+            </p>
+            <nav aria-label="Menu principal">
+                <ul>
+                    <li><a href="index.html" aria-current="page">Início: Carreira em Testes de Software</a></li>
+                    <li><a href="pages/habilidades.html">Conhecer habilidades técnicas de QA</a></li>
+                    <li><a href="pages/materiais.html">Explorar materiais de estudo e mercado</a></li>
+                    <li><a href="pages/sobre.html">Sobre o projeto Viva Sua Profissão</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <h1>Analista de Testes de Software: O Que Faz e Como Começar</h1>
+    <main class="container">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <span class="badge">Carreira em Tecnologia &bull; QA</span>
+                <h1 id="hero-title">Analista de Testes de Software: O Que Faz e Como Começar</h1>
+                <p class="lead">O analista de testes é o profissional responsável por garantir que aplicativos, sites e sistemas funcionem sem falhas antes de chegarem aos usuários finais.</p>
+                <div class="cta-group">
+                    <a href="pages/habilidades.html" class="btn btn-primary">Ver habilidades de QA</a>
+                    <a href="pages/materiais.html" class="btn btn-secondary">Materiais e mercado</a>
+                </div>
+            </div>
 
-        <section>
-            <h2>O dia a dia na Garantia de Qualidade (QA)</h2>
-            <p>O analista de testes é o profissional responsável por garantir que aplicativos, sites e sistemas funcionem sem falhas antes de chegarem aos usuários finais.</p>
-
-            <figure>
+            <figure class="hero-media">
                 <img src="img/analista-testes-software.jpg" alt="Analista de testes de software verificando checklists e interface de sistema em um notebook" loading="lazy">
                 <figcaption>Rotina de verificação e qualidade de software realizada por um profissional de QA.</figcaption>
             </figure>
+        </section>
 
-            <article>
+        <section class="section-card" aria-labelledby="dia-a-dia-title">
+            <div class="section-header">
+                <h2 id="dia-a-dia-title">O dia a dia na Garantia de Qualidade (QA)</h2>
+                <p>Muito além de encontrar erros, quem atua em <em>Quality Assurance</em> participa de todo o ciclo de desenvolvimento para entregar produtos confiáveis.</p>
+            </div>
+
+            <article class="activities-block">
                 <h3>Principais atividades da profissão</h3>
-                <ul>
-                    <li>Planejar e criar cenários de testes para identificar bugs;</li>
-                    <li>Executar testes manuais e automatizados em diferentes dispositivos;</li>
-                    <li>Documentar erros encontrados e colaborar com desenvolvedores na correção.</li>
+                <ul class="cards-grid">
+                    <li class="feature-card">
+                        <span class="step-badge" aria-hidden="true">01</span>
+                        <h4>Planejamento de cenários</h4>
+                        <p>Planejar e criar cenários de testes para identificar bugs antes da publicação.</p>
+                    </li>
+                    <li class="feature-card">
+                        <span class="step-badge" aria-hidden="true">02</span>
+                        <h4>Execução multidispositivo</h4>
+                        <p>Executar testes manuais e automatizados em diferentes dispositivos e navegadores.</p>
+                    </li>
+                    <li class="feature-card">
+                        <span class="step-badge" aria-hidden="true">03</span>
+                        <h4>Documentação e parceria</h4>
+                        <p>Documentar erros encontrados e colaborar com desenvolvedores na correção.</p>
+                    </li>
                 </ul>
             </article>
         </section>
 
-        <section>
-            <h2>Por que escolher essa área da tecnologia?</h2>
-            <p>Com o crescimento constante do desenvolvimento de software, empresas buscam cada vez mais especialistas focados na experiência e segurança do usuário.</p>
-            <p>Quer dar o próximo passo? <a href="pages/habilidades.html">Descubra as habilidades necessárias para se tornar um Analista de Testes</a> e confira também nossos <a href="pages/materiais.html">materiais de estudo e panorama do mercado de QA</a>.</p>
+        <section class="callout" aria-labelledby="porque-area-title">
+            <div class="callout-content">
+                <h2 id="porque-area-title">Por que escolher essa área da tecnologia?</h2>
+                <p>Com o crescimento constante do desenvolvimento de software, empresas buscam cada vez mais especialistas focados na experiência e segurança do usuário.</p>
+                <p>Quer dar o próximo passo? <a href="pages/habilidades.html">Descubra as habilidades necessárias para se tornar um Analista de Testes</a> e confira também nossos <a href="pages/materiais.html">materiais de estudo e panorama do mercado de QA</a>.</p>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>Projeto Viva Sua Profissão &copy; 2026 - Curso Técnico em Desenvolvimento de Sistemas</p>
+    <footer class="site-footer">
+        <div class="container">
+            <p>Projeto Viva Sua Profissão &copy; 2026 - Curso Técnico em Desenvolvimento de Sistemas</p>
+        </div>
     </footer>
 </body>
 
