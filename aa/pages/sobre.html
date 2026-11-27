@@ -2,14 +2,17 @@
 <html lang="pt-BR">
 
 <head>
+    <!-- Metadados básicos, descrição para SEO e título da página Sobre -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Saiba quem criou o portal Viva Sua Profissão e qual é o objetivo do projeto para ajudar estudantes a conhecerem a carreira de analista de testes de software.">
     <title>Sobre o Portal Viva Sua Profissão | Testes de Software</title>
+    <!-- Fontes externas (Google Fonts) e folha de estilos principal -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+    <!-- Script inline para aplicar o tema salvo antes da renderização -->
     <script>
         try {
             var savedTheme = localStorage.getItem("vsp-theme");
@@ -18,10 +21,12 @@
             }
         } catch (e) {}
     </script>
+    <!-- Script externo que controla o botão de alternância de tema -->
     <script src="../js/theme.js" defer></script>
 </head>
 
 <body>
+    <!-- Cabeçalho com logotipo, botão de modo escuro/claro e menu de navegação -->
     <header class="site-header">
         <div class="container header-inner">
             <div class="header-top">
@@ -48,7 +53,9 @@
         </div>
     </header>
 
+    <!-- Conteúdo principal da página Sobre -->
     <main class="container">
+        <!-- Introdução: propósito do portal Viva Sua Profissão -->
         <section class="page-intro" aria-labelledby="sobre-title">
             <span class="badge">Sobre o Portal</span>
             <h1 id="sobre-title">Sobre o Portal Viva Sua Profissão</h1>
@@ -56,6 +63,7 @@
             <p>Aqui você encontra desde uma <a href="../index.html">introdução ao dia a dia da profissão</a> até um guia com <a href="habilidades.html">habilidades essenciais</a> e <a href="materiais.html">materiais gratuitos para começar a estudar</a>.</p>
         </section>
 
+        <!-- Seção de boas práticas técnicas aplicadas no desenvolvimento do site -->
         <section aria-labelledby="boas-praticas-title">
             <div class="section-header">
                 <h2 id="boas-praticas-title">Boas Práticas Aplicadas neste Site</h2>
@@ -85,6 +93,7 @@
             </ul>
         </section>
 
+        <!-- Seção de Perguntas Frequentes (FAQ - RF02): acordeão acessível com details/summary -->
         <section aria-labelledby="faq-title">
             <div class="section-header">
                 <h2 id="faq-title">Perguntas Frequentes sobre a Carreira de QA (FAQ)</h2>
@@ -110,6 +119,7 @@
             </div>
         </section>
 
+        <!-- Seção Callout: link para o repositório oficial do projeto no GitHub -->
         <section class="callout" aria-labelledby="codigo-fonte-title">
             <div class="callout-content">
                 <h2 id="codigo-fonte-title">Código Aberto no GitHub</h2>
@@ -118,6 +128,7 @@
         </section>
     </main>
 
+    <!-- Rodapé padrão do portal -->
     <footer class="site-footer">
         <div class="container">
             <p>Projeto Viva Sua Profissão &copy; 2026 - Curso Técnico em Desenvolvimento de Sistemas</p>

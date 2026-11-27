@@ -3,6 +3,7 @@
    Mobile-first, acessível e sem rolagem horizontal
    ========================================================================== */
 
+/* Variáveis globais do tema claro (cores, tipografia, bordas e sombras) */
 :root {
     --color-bg: #f8fafc;
     --color-surface: #ffffff;
@@ -786,6 +787,7 @@ main > section:nth-child(4) {
     color: var(--color-text-muted);
 }
 
+/* Acessibilidade: desativa animações caso o usuário prefira movimento reduzido */
 @media (prefers-reduced-motion: reduce) {
     html {
         scroll-behavior: auto;

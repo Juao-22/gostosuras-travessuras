@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Mapa do site (Sitemap XML) usado por mecanismos de busca para descobrir todas as páginas -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Página inicial do portal -->
   <url>
     <loc>https://juao-22.github.io/gostosuras-travessuras/aa/</loc>
     <lastmod>2026-11-25</lastmod>
   </url>
+  <!-- Página de habilidades técnicas e comportamentais de QA -->
   <url>
     <loc>https://juao-22.github.io/gostosuras-travessuras/aa/pages/habilidades.html</loc>
     <lastmod>2026-11-25</lastmod>
   </url>
+  <!-- Página de mercado, salários e materiais de estudo -->
   <url>
     <loc>https://juao-22.github.io/gostosuras-travessuras/aa/pages/materiais.html</loc>
     <lastmod>2026-11-25</lastmod>
   </url>
+  <!-- Página institucional sobre o projeto e FAQ -->
   <url>
     <loc>https://juao-22.github.io/gostosuras-travessuras/aa/pages/sobre.html</loc>
     <lastmod>2026-11-25</lastmod>

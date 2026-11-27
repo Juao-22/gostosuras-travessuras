@@ -1,3 +1,6 @@
+# Arquivo de controle para robôs de busca (SEO técnico)
+# Libera todos os buscadores (User-agent: *) para rastrear todo o site (Allow: /)
 User-agent: *
 Allow: /
+# Indica o endereço do mapa do site para facilitar a indexação das páginas
 Sitemap: https://juao-22.github.io/gostosuras-travessuras/aa/sitemap.xml

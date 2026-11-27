@@ -2,14 +2,17 @@
 <html lang="pt-BR">
 
 <head>
+    <!-- Metadados básicos, descrição para SEO e título da página de materiais -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Veja o mercado de trabalho e salário do analista de testes de software, além de materiais de estudo, cursos e guias gratuitos para iniciar na profissão.">
     <title>Mercado e Salário: Analista de Testes | Viva Sua Profissão</title>
+    <!-- Fontes externas (Google Fonts) e folha de estilos principal -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+    <!-- Script inline para aplicar o tema salvo antes da renderização -->
     <script>
         try {
             var savedTheme = localStorage.getItem("vsp-theme");
@@ -18,10 +21,12 @@
             }
         } catch (e) {}
     </script>
+    <!-- Script externo que controla o botão de alternância de tema -->
     <script src="../js/theme.js" defer></script>
 </head>
 
 <body>
+    <!-- Cabeçalho com logotipo, botão de modo escuro/claro e menu de navegação -->
     <header class="site-header">
         <div class="container header-inner">
             <div class="header-top">
@@ -48,7 +53,9 @@
         </div>
     </header>
 
+    <!-- Conteúdo principal da página de materiais e mercado -->
     <main class="container">
+        <!-- Introdução da página sobre demanda de mercado em QA -->
         <section class="page-intro" aria-labelledby="materiais-title">
             <span class="badge">Mercado &amp; Aprendizado</span>
             <h1 id="materiais-title">Mercado, Salários e Materiais de Estudo em QA</h1>
@@ -56,6 +63,7 @@
             <p>Antes de se candidatar às primeiras vagas de estágio ou nível júnior, vale revisar as <a href="habilidades.html">habilidades técnicas e comportamentais mais pedidas em QA</a>.</p>
         </section>
 
+        <!-- Seção de níveis de carreira: Júnior, Pleno e Sênior em QA -->
         <section aria-labelledby="niveis-carreira-title">
             <div class="section-header">
                 <h2 id="niveis-carreira-title">Panorama do Mercado de Trabalho</h2>
@@ -80,6 +88,7 @@
             </ul>
         </section>
 
+        <!-- Seção de guias gratuitos: links externos confiáveis (MDN, DevTools, ISTQB) -->
         <section aria-labelledby="guias-title">
             <div class="section-header">
                 <h2 id="guias-title">Materiais e Guias Gratuitos Recomendados</h2>
@@ -107,6 +116,7 @@
             </ul>
         </section>
 
+        <!-- Seção Callout: link para a página Sobre e retorno à página inicial -->
         <section class="callout" aria-labelledby="sobre-cta-title">
             <div class="callout-content">
                 <h2 id="sobre-cta-title">Quer saber quem desenvolveu este portal?</h2>
@@ -115,6 +125,7 @@
         </section>
     </main>
 
+    <!-- Rodapé padrão do portal -->
     <footer class="site-footer">
         <div class="container">
             <p>Projeto Viva Sua Profissão &copy; 2026 - Curso Técnico em Desenvolvimento de Sistemas</p>
