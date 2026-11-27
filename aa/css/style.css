@@ -797,6 +797,32 @@ main > section:nth-child(4) {
     color: var(--color-text-muted);
 }
 
+/* Acessibilidade: link para pular direto ao conteúdo principal via teclado */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0.75rem;
+    z-index: 100;
+    padding: 0.65rem 1rem;
+    border-radius: var(--radius-sm);
+    background-color: var(--color-primary);
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.skip-link:focus {
+    left: 1rem;
+}
+
+/* Acessibilidade: destaque visível ao navegar com a tecla Tab */
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 3px;
+}
+
 /* Acessibilidade: desativa animações caso o usuário prefira movimento reduzido */
 @media (prefers-reduced-motion: reduce) {
     html {
