@@ -300,6 +300,16 @@ header.site-header .logo {
     color: var(--color-text);
 }
 
+/* Estilo do ícone da logo no cabeçalho */
+.logo-icon {
+    width: 2.25rem;
+    height: 2.25rem;
+    flex-shrink: 0;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-sm);
+}
+
+/* Marca do logotipo (mantida como fallback caso seja usada) */
 .logo-mark {
     display: inline-flex;
     align-items: center;

@@ -1,0 +1,16 @@
+<!-- Logotipo vetorial (SVG) do portal Viva Sua Profissão: escudo com sinal de verificação representando Garantia de Qualidade (QA) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" fill="none">
+  <defs>
+    <!-- Gradiente nas cores oficiais do site (Teal e Azul) -->
+    <linearGradient id="vsp-logo-grad" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <!-- Fundo arredondado do emblema -->
+  <rect width="40" height="40" rx="10" fill="url(#vsp-logo-grad)"/>
+  <!-- Escudo representando proteção e confiabilidade do software -->
+  <path d="M20 7.5L10.5 11.5V19.2C10.5 25.3 14.55 30.85 20 32.5C25.45 30.85 29.5 25.3 29.5 19.2V11.5L20 7.5Z" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round" fill="rgba(255, 255, 255, 0.14)"/>
+  <!-- Sinal de verificação (check) simbolizando testes aprovados -->
+  <path d="M15.8 19.8L18.7 22.7L24.6 16.8" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
